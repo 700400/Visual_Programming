@@ -11,9 +11,9 @@
 ---
 ---
 ## 제작
-* 1. Visual Studio를 실행하여 새로운 프로젝트 생성하기
-* 2. MFC앱을 선택해주고 대화상자기반으로 만들기
-* 3. 빈 MFC다이얼로그에 ListBox와 Button 넣기
+  1. Visual Studio를 실행하여 새로운 프로젝트 생성하기
+  2. MFC앱을 선택해주고 대화상자기반으로 만들기
+  3. 빈 MFC다이얼로그에 ListBox와 Button 넣기
   4. ListBox에 변수 추가하기를 눌러서 m_List변수 생성
   5. 상단의 보기에서 리소스 뷰를 선택하여 Dialog폴더모양 찾기
   6. 우클릭하여 삽입하면 새로운 Dialog가 생성
