@@ -23,3 +23,40 @@
   10. CSon Dialog의 Edit Control에 m_Str이라는 이름으로 변수 추가하기(범주는 값으로 설정하기)
   11. 본체 Dialog로 돌아와서 CSon을 Modeless형태로 부르게 코딩하기
   12. CSon의 Edit Control에 원하는 글자를 쓰고 Button을 누르면 본체 Dialog의 ListBox에 나타나도록 코딩
+  13. 클래스 마법사에서 가상함수 PostNcDestroy와 속성 뷰에 있는 메세지에서 WM_Cloes를 찾아서 넣기
+---
+## 코드
+### 본체
+```cpp
+#include "CSon.h"
+void CMFCModeless1Dlg::OnBnClickedButton1()
+{
+	CSon* p = new CSon();
+	p->Create(IDD_DIALOG1);
+	p->ShowWindow(SW_SHOW);
+}
+```
+### 자식
+```cpp
+#include "MFCModeless1Dlg.h"
+void CSon::OnBnClickedButton1()
+{
+	CMFCModeless1Dlg* dlg = (CMFCModeless1Dlg*)GetParent();
+	UpdateData(true);
+	dlg->m_List.AddString(m_Str);
+}
+
+void CSon::PostNcDestroy()
+{
+	// TODO: 여기에 특수화된 코드를 추가 및/또는 기본 클래스를 호출합니다.
+	CDialogEx::PostNcDestroy();
+}
+
+void CSon::OnClose()
+{
+	// TODO: 여기에 메시지 처리기 코드를 추가 및/또는 기본값을 호출합니다.
+	DestroyWindow();
+	CDialogEx::OnClose();
+}
+```
+
