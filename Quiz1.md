@@ -10,6 +10,11 @@
 ![1](img/quiz1/QuizResult.gif)
 
 ## 코드
+### 중요 필독!!
+* 카페에 올라와 있는 SDI기반 펜만들기 코드를 가져와서 아래 PreTranslateMessage와 OnContextMenu를 추가하여 완성
+---
+---
+
 ```cpp
 BOOL CPenView::PreTranslateMessage(MSG* pMsg)
 {
