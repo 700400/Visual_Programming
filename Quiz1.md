@@ -9,6 +9,8 @@
 ## 결과
 ![1](img/quiz1/QuizResult.gif)
 
+* 1~6까지 모든 항목을 만족하는 것으로 보임
+
 ## 코드
 ### 중요 필독!!
 * 카페에 올라와 있는 SDI기반 펜만들기 코드를 가져와서 아래 PreTranslateMessage와 OnContextMenu를 추가하여 완성
