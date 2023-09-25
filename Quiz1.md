@@ -20,8 +20,8 @@ BOOL CPenView::PreTranslateMessage(MSG* pMsg)
 {
 	// TODO: 여기에 특수화된 코드를 추가 및/또는 기본 클래스를 호출합니다.
 	if (pMsg->message == WM_KEYDOWN) {
-		if (pMsg->wParam == '1') { Size = 2; } // 키보드 A가 눌러졌을때 메시지 박스 호출
-		if (pMsg->wParam == '2') { Size = 4; } // B가 눌러졌을때 다이얼로그에 사각형 그림
+		if (pMsg->wParam == '1') { Size = 2; }
+		if (pMsg->wParam == '2') { Size = 4; }
 		if (pMsg->wParam == '3') { Size = 6; }
 		if (pMsg->wParam == '4') { Size = 8; }
 		if (pMsg->wParam == '5') { Size = 10; }
@@ -38,9 +38,14 @@ void CPenView::OnContextMenu(CWnd* pWnd, CPoint point)
 {
 	// TODO: 여기에 메시지 처리기 코드를 추가합니다.
 	CMenu m;
-	m.LoadMenuW(IDR_MAINFRAME); // LodaMenuW W는 유니코드까지 포함하는거라 안쓰면 안해도됨
+	m.LoadMenuW(IDR_MAINFRAME);
 	CMenu* p;
 	p = m.GetSubMenu(4);
 	p->TrackPopupMenu(NULL, point.x, point.y, this, NULL);
 }
+```
+```
+첨언
+SDI는 메뉴를 새로만들어도 새로 만든 메뉴의 ID를 사용할 수 없어서 IDR_MAINFRAME에서 서브메뉴를
+선택하는 방식으로 컨택스트 메뉴를 가져올 수 있었음
 ```
