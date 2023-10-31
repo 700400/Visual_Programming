@@ -52,3 +52,6 @@ void CMFCApplication3View::OnRButtonDown(UINT nFlags, CPoint point)
 }
 ```
 * 마우스를 좌클릭하여 쓰레드를 하나 불러서 원을 계속 만들도록 무한반복 시키는 와중에 우클릭을 해도 작업이 끊어지지 않음
+
+## 결과
+![1](img/img4/multiThread1.gif)
