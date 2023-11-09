@@ -3,7 +3,7 @@
 * visual studio installer -> C++을 이용한 데스크톱 개발 -> "Windows 10 SDK(10.0.19041.0)"과 "Windows 앱 SDK C++ 템플릿" 설치
 * 프로젝트 -> NuGet패키지 관리 -> 찾아보기 -> winui2d 검색 -> 1.0.5.1 설치
 ## 실행 화면
-![img](img/img5_1/5_2.JPG)
+![img](img/img5_1/5_2.gif)
 ## 코드 추가
 ### 헤더
 ```
