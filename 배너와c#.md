@@ -1,7 +1,7 @@
 # win2d를 이용한 배너와 c#을 이용한 곱셈 계산기
 ## C#을 이용한 곱셈 계산기
 ### 실행 화면
-![img](img/img_CS_Baanner/CS_calc.gif)
+![img](img/img_CS_Banner/CS_calc.gif)
 ### 주요 코드
 ```xaml
 <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
@@ -26,7 +26,7 @@ private void bt1_Click(object sender, RoutedEventArgs e)
 ---
 ## win2D를 이용한 배너 만들기
 ### 실행화면
-![img](img/img_CS_Baanner/Banner.gif)
+![img](img/img_CS_Banner/banner.gif)
 ### 주요코드
 ```xaml
 xmlns:canvas="using:Microsoft.Graphics.Canvas.UI.Xaml"
