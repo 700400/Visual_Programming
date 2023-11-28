@@ -4,7 +4,7 @@
 
 ## 코드
 ### xaml
-```
+```xaml
 <!-- Copyright (c) Microsoft Corporation and Contributors. -->
 <!-- Licensed under the MIT License. -->
 
@@ -73,7 +73,7 @@
 ---
 ---
 ### 헤더 파일
-```
+```cpp
 // Copyright (c) Microsoft Corporation and Contributors.
 // Licensed under the MIT License.
 
@@ -129,7 +129,7 @@ namespace winrt::chap15::factory_implementation
 ---
 ---
 ### cpp파일
-```
+```cpp
 // Copyright (c) Microsoft Corporation and Contributors.
 // Licensed under the MIT License.
 
