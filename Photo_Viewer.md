@@ -7,3 +7,5 @@ https://github.com/700400/SimplePhotos
 ![img](img/img_finalTest1/1.gif)
 ## 방법
 * 기본적으로 출처에 있는 Microsoft공식문서의 단계를 따른다
+
+* > 1. 
