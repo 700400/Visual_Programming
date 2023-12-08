@@ -14,8 +14,8 @@ https://github.com/700400/SimplePhotos
 
 3: https://github.com/microsoft/WindowsAppSDK-Samples/tree/main <-- 이곳에서 화면 중단 초록색 버튼(Code)를 눌러서 다운로드를 받아서 내부의 Sample폴더를 공식문서의 안내에 따라 Asset폴더에 넣기
 
-4: 공식 문서의 안내에 따라 ImageFileInfo.idl을 추가하고 ImageFileInfo.cpp와 .h를 수정하기
+4: 공식문서의 안내에 따라 ImageFileInfo.idl을 추가하고 ImageFileInfo.cpp와 .h를 수정하기
 
-5: 이후 공식 문서에 있는 단계를 잘 따라서 MainWindow.xaml.cpp, MainWindow.xaml.h, MainWindow.xaml 코딩하기
+5: 이후 공식문서에 있는 단계를 잘 따라서 MainWindow.xaml.cpp, MainWindow.xaml.h, MainWindow.xaml 코딩하기
 
 6: 완성
